@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <titlle>
+        </titlle>
+    </head>
+    <body>
+        <style>
+            *{
+                margin: 0%;
+                padding: 0%;
+                font-family: 'poppins','sans-serif';
+                box-sizing: border-box;
+            }
+            
+            
+            .logo{
+                position: relative;
+                bottom: 900px;
+                width: 5;
+            }
+            body{
+                background-color: black;
+                color: white;
+            }
+            .header{
+                height: 100vh;
+                width: 100%;
+                
+                background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/header-image.png);
+                background-size: cover;
+                background-position: center;
+                padding: 10px,8%;
+                position: relative;
+                
+             }
+             nav{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 150px;
+                position: relative;
+                top: -120px; 
+             }
+             nav button{
+                border: 0;
+                background-color: red;
+                color: white;
+                outline: 0;
+                font-size: 12px;
+                border-radius: 4px;
+                padding: 7px 20px;
+                margin-left: 10px;
+                cursor: pointer;
+             }
+             .lang{
+                background: transparent;
+                display: inline flex;
+                align-items: center;
+                border: 1px;
+                border: solid;
+                border-color: gainsboro;
+                border-width: 1px;
+                
+
+             }
+             .butt{
+            
+
+             }
+            
+        </style>
+        <div class="header">
+            <nav>
+                <img src="images/logo.png" width="150px" style="cursor:pointer;">
+                <div>
+                    <button class="lang">ENGLISH <img src="images/down-icon.png" style="width: 12px; margin-left: 10px;"></button>
+                    <button>SIGN IN</button>
+                </div>
+            </nav>
+            <div class="hcontent">
+                <center>
+                <h1 style="font-size: 60px;">Unlimited movies, TV shows and more</h1><br>
+                <h2 style="font-size: 30px;">Watch anywhere. Cancel anytime.</h2><br>
+                <p style="font-size: 25px;">Ready to watch? Enter your email to create or restart your membership.</p><br>
+                <form class="email">
+                    <input style="width: 500px;height: 65px;background: transparent;border: solid;border-color: white;border-width: 1px;color: white;" type="email" placeholder="Email address" required>
+                    <button class="butt" style="width:150px;height: 65px; background-color: red;color: white;font-size: larger;"type="button">Get Started  ></button>
+                </form>
+            </div>
+
+        </div>
+    </body>
+</html>
